@@ -4,5 +4,26 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: ed73900df50c76441867baac905a3fd4
+  - enabled: 1
+    path: Assets/Scenes/Pisos/Comedor.unity
+    guid: fbcc4831417875e4a9d0e35fdc3da1b2
+  - enabled: 1
+    path: Assets/Scenes/Pisos/Entrada.unity
+    guid: 93b1a3af011ad1043833bd80a7074fef
+  - enabled: 1
+    path: Assets/Scenes/Pisos/Planta1.unity
+    guid: f2b4a2cdef29703448534b26c17edc08
+  - enabled: 1
+    path: Assets/Scenes/Pisos/Sala de juntas.unity
+    guid: ae5ec0b2ed517634e8d2f6e804238fd5
+  - enabled: 1
+    path: Assets/Scenes/Pisos/Siniestros/Incendio.unity
+    guid: 5b18e8a69dff86f4382fafe51715814c
+  - enabled: 1
+    path: Assets/Scenes/Pisos/Siniestros/Sismo.unity
+    guid: 3c402bb9840c3914090959f9aafd6101
   m_configObjects: {}
