@@ -9,6 +9,13 @@ public class Safe : MonoBehaviour
 {
     //public GameObject sign;
     public GameObject safezone;
+    public float Tiempo = 5;
+    public Text timerText;
+    public GameObject texto;
+    public GameObject textoNum;
+    bool TimerOn = false;
+    bool Timerfin = false;
+
 
     //public Text text1;
 
@@ -17,7 +24,28 @@ public class Safe : MonoBehaviour
     {
 
     }
+    void Update(){
 
+        timerText.text = Tiempo.ToString() +"   "+"SEG.";
+
+        if (TimerOn==true && Tiempo>0)
+        {
+            Tiempo -= Time.deltaTime;
+        }
+        else if (TimerOn==true && Tiempo <= 0)
+        {
+            Tiempo = 0;
+            Timerfin = true;
+        }
+            
+        
+        if(TimerOn==true && Tiempo==0)
+        {
+            print("Prueba fallida");
+        }
+        
+
+        }
     // Update is called once per frame
         private void OnTriggerEnter(Collider other)
     {
@@ -28,6 +56,10 @@ public class Safe : MonoBehaviour
         //SceneManager.LoadScene("Loading screen");
         //sign.SetActive(true);
         safezone.SetActive(true);
+        texto.SetActive(true);
+        textoNum.SetActive(true);
+        TimerOn = true;
+        
         }
     }
 
@@ -36,7 +68,13 @@ public class Safe : MonoBehaviour
         if(others.tag == "Flechas"){
         //sign.SetActive(false);
         safezone.SetActive(false);
-
+        texto.SetActive(false);
+        textoNum.SetActive(false);
+        TimerOn = false;
+        
+        if(!Timerfin){
+            Tiempo = 5;
+            }
         }
     }
 }
