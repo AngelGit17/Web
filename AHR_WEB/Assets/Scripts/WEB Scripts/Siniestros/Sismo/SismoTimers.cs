@@ -7,7 +7,12 @@ public class SismoTimers : MonoBehaviour
 {
     public float Tiempo = 54;
     public Text timerText;
+    public GameObject finalCanvas;
+    public float marcador;
+
 void Start(){
+
+
 }
     // Update is called once per frame
     void Update()
@@ -26,5 +31,11 @@ void Start(){
             print("Prueba fallida");
         }
     }
-        
+
+    void Marker(){
+        if(finalCanvas.activeSelf){
+            marcador = Tiempo;
+        }
+    }
+    
 }

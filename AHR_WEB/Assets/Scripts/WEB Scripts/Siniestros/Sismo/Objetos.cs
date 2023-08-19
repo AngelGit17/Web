@@ -21,10 +21,10 @@ public class Objetos : MonoBehaviour
     {
         if(canvasact == true){
                 if(Input.GetKeyDown(KeyCode.X)){
-                print("hello");
                 Destroy(Obj);    
-                Destroy(TextObj);
+                //Destroy(TextObj);
                 Destroy(gameObject);
+                TextObj.SetActive(false);
                 IconBot.SetActive(true);
         }}
     }
