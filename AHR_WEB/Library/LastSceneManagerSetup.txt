@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Pisos/Siniestros/Sismo.unity
+- path: Assets/Scenes/Pisos/Entrada.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
