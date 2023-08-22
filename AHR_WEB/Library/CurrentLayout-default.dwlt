@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 677, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 153
+  controlID: 135
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 276
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 328
     height: 676
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -151,7 +151,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -224,10 +224,10 @@ MonoBehaviour:
     y: 0
     width: 1644
     height: 947
-  m_MinSize: {x: 403, y: 492}
+  m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 70
+  controlID: 53
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,10 +249,10 @@ MonoBehaviour:
     y: 0
     width: 1644
     height: 676
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 71
+  controlID: 54
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -346,22 +346,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/WEB Scripts/Siniestros/Incendio
+    - Assets/Imagenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/WEB Scripts/Siniestros/Incendio
+  - Assets/Imagenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Heku\Desktop\Web\AHR_WEB
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 202}
-    m_SelectedIDs: 2c5d0000
-    m_LastClickedID: 23852
-    m_ExpandedIDs: 00000000dc5c0000de5c0000e05c0000e25c0000e45c0000e65c0000e85c00000a5d00000e5d0000365d00006ee4000000ca9a3b
+    scrollPos: {x: 0, y: 138}
+    m_SelectedIDs: ea5b0000
+    m_LastClickedID: 23530
+    m_ExpandedIDs: 00000000e85b0000ea5b0000ec5b0000ee5b0000f05b0000f25b0000f45b0000f65b0000f85b0000fa5b0000445c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -389,7 +389,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000dc5c0000de5c0000e05c0000e25c0000e45c0000e65c0000e85c0000
+    m_ExpandedIDs: 00000000e85b0000ea5b0000ec5b0000ee5b0000f05b0000f25b0000f45b0000f65b0000f85b0000fa5b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -417,7 +417,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000
+    m_ExpandedInstanceIDs: c623000032580000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -510,9 +510,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: b83bffff2e7affff427affff5a7affff667affff9e7affff6e7dffff7085ffff668fffff6eb9ffff48dbffff8addffffc2ddffff2ee8ffff68fbffff00460000a45200006e790000c67a0000f67b0000be820000ee820000ac310100503e01005c4501004647010036510100
+      m_SelectedIDs: 38a1ffff
+      m_LastClickedID: -24264
+      m_ExpandedIDs: 16abffff0cb5ffff42bfffff02c9ffff74d3ffffcee8ffffd8e8ffffdaf0ffff68fbffff205e0000405e00000e5f0000806100008a690000606c0000d26d00008e700000b0710000b8f60000bef7000052fb0000fe000100a8020100d8020100b64a0100f84c01008c500100ae540100626d0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -572,9 +572,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -619.82324, y: 466.5893, z: -98.61206}
+    m_Target: {x: 657.00024, y: 317.00006, z: 0}
     speed: 2
-    m_Value: {x: -619.82324, y: 466.5893, z: -98.61206}
+    m_Value: {x: 657.00024, y: 317.00006, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -621,13 +621,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.0052440944, y: 0.9826848, z: -0.028007919, w: -0.18343258}
+    m_Target: {x: 0.20543171, y: 0.031150486, z: -0.006563898, w: 0.9782299}
     speed: 2
-    m_Value: {x: -0.0055188136, y: 0.98257846, z: -0.029480029, w: -0.18341272}
+    m_Value: {x: 0.20394893, y: 0.031157976, z: -0.006516665, w: 0.97846395}
   m_Size:
-    m_Target: 934.6679
+    m_Target: 418.94864
     speed: 2
-    m_Value: 934.6679
+    m_Value: 400.90778
   m_Ortho:
     m_Target: 0
     speed: 2
