@@ -11,8 +11,10 @@ public class Summary : MonoBehaviour
     bool canvas = false;
     public GameObject ImaBot;
     public GameObject ImaMoc;
+    public GameObject ImaVol;
     public GameObject ImaBotS;
     public GameObject ImaMocS;
+    public GameObject ImaVolS;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +29,9 @@ public class Summary : MonoBehaviour
         }
         if(ImaMoc.activeSelf){
             ImaMocS.SetActive(true);
+        }
+        if(ImaVol.activeSelf){
+            ImaVolS.SetActive(true);
         }
 
         

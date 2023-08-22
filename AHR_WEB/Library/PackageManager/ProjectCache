@@ -706,6 +706,7 @@ m_PackageAssets:
         - 1.5.1
         - 1.6.1
         - 1.6.3
+        - 1.7.0
         compatible:
         - 0.1.2-preview
         - 0.2.0-preview
@@ -747,6 +748,7 @@ m_PackageAssets:
         - 1.5.1
         - 1.6.1
         - 1.6.3
+        - 1.7.0
         verified: 1.5.1
       dependencies:
       - name: com.unity.modules.uielements

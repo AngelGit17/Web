@@ -15,6 +15,10 @@ public class Safe : MonoBehaviour
     public GameObject textoNum;
     bool TimerOn = false;
     bool Timerfin = false;
+    public GameObject sonido;
+    public GameObject Polvo;
+    public GameObject Anuncio;
+    public bool desplegado = false;
 
 
     //public Text text1;
@@ -41,7 +45,10 @@ public class Safe : MonoBehaviour
         
         if(TimerOn==true && Tiempo==0)
         {
-            print("Prueba fallida");
+            sonido.SetActive(false);
+            Polvo.SetActive(false);
+            Anuncio.SetActive(true);
+            desplegado = true;
         }
         
 
@@ -55,6 +62,7 @@ public class Safe : MonoBehaviour
         
         //SceneManager.LoadScene("Loading screen");
         //sign.SetActive(true);
+        Polvo.SetActive(true);
         safezone.SetActive(true);
         texto.SetActive(true);
         textoNum.SetActive(true);

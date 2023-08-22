@@ -10,9 +10,12 @@ public class Salida : MonoBehaviour
     //public GameObject sign;
     public SismoTimers Time;
     public GameObject ImaBot;
+    public GameObject ImaVol;
     public GameObject ImaMoc;
     public GameObject flechaslight;
     public GameObject NotifText;
+    public Text timerfinal;
+    private float timetext;
 
 
     //public Text text1;
@@ -24,11 +27,12 @@ public class Salida : MonoBehaviour
     }
     void Update()
     {
-        if(ImaBot.activeSelf && ImaMoc.activeSelf){
+        if(ImaBot.activeSelf && ImaMoc.activeSelf && ImaVol.activeSelf){
             flechaslight.SetActive(true);
             NotifText.SetActive(true);
-            print(Time.Tiempo);
         }
+
+        timerfinal.text = Time.Tiempo.ToString() +" seg.";
     }
 
     // Update is called once per frame
