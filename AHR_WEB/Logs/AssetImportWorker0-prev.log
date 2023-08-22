@@ -15,15 +15,15 @@ C:/Users/Heku/Desktop/Web/AHR_WEB
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58706
+58775
 Successfully changed project path to: C:/Users/Heku/Desktop/Web/AHR_WEB
 C:/Users/Heku/Desktop/Web/AHR_WEB
 Using Asset Import Pipeline V2.
-Player connection [1252] Host "[IP] 192.168.100.7 [Port] 3221443040 [Flags] 2 [Guid] 2181240161 [EditorId] 2181240161 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E0JFIR3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [2132] Host "[IP] 192.168.100.7 [Port] 1073959392 [Flags] 2 [Guid] 3772138381 [EditorId] 3772138381 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E0JFIR3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [1252] Host "[IP] 192.168.100.7 [Port] 3221443040 [Flags] 2 [Guid] 2181240161 [EditorId] 2181240161 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E0JFIR3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [2132] Host "[IP] 192.168.100.7 [Port] 1073959392 [Flags] 2 [Guid] 3772138381 [EditorId] 3772138381 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E0JFIR3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 46.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 46.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.48f1 (b805b124c6b7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.48f1/Editor/Data/Resources/UnitySubsystems
@@ -39,73 +39,73 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.48f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.48f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.48f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.48f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003024 seconds.
+Registered in 0.002986 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 45.79 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 44.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.575 seconds
+- Completed reload, in  0.557 seconds
 Domain Reload Profiling:
-	ReloadAssembly (577ms)
-		BeginReloadAssembly (74ms)
+	ReloadAssembly (559ms)
+		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (425ms)
-			LoadAssemblies (69ms)
+		EndReloadAssembly (416ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (132ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (166ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (159ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (47ms)
+				RefreshPlugins (46ms)
 				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (77ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005784 seconds.
+Registered in 0.005630 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 45.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 47.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.136 seconds
+- Completed reload, in  1.108 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1137ms)
-		BeginReloadAssembly (139ms)
+	ReloadAssembly (1109ms)
+		BeginReloadAssembly (141ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (933ms)
-			LoadAssemblies (91ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (903ms)
+			LoadAssemblies (92ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (269ms)
+			SetupTypeCache (261ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (426ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (411ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (46ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (240ms)
-				ProcessInitializeOnLoadMethodAttributes (65ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
 				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -114,14 +114,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1886 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 89.3 MB.
 System memory in use after: 88.6 MB.
 
 Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2324.
-Total: 3.323900 ms (FindLiveObjects: 0.193100 ms CreateObjectMapping: 0.068600 ms MarkObjects: 2.769300 ms  DeleteObjects: 0.291300 ms)
+Total: 3.143800 ms (FindLiveObjects: 0.156000 ms CreateObjectMapping: 0.044000 ms MarkObjects: 2.649200 ms  DeleteObjects: 0.293500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,13 +135,85 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Pisos/Siniestros/Incendio.unity
-  artifactKey: Guid(5b18e8a69dff86f4382fafe51715814c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Pisos/Siniestros/Incendio.unity using Guid(5b18e8a69dff86f4382fafe51715814c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533932251b559d6c2be378c99271e78b') in 0.007907 seconds 
+  path: Assets/Sprites/PrimerPiso.png
+  artifactKey: Guid(e8b410d97ae300c42a1bdee41929c0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PrimerPiso.png using Guid(e8b410d97ae300c42a1bdee41929c0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98127fcf72f517b749f087dce690c236') in 0.110678 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.281458 seconds.
-  path: Assets/Materials/Paticules/Fire 1.mat
-  artifactKey: Guid(84c4a7e4c0bc34e41a63cf46507204a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Paticules/Fire 1.mat using Guid(84c4a7e4c0bc34e41a63cf46507204a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9d61833c63b12fe8e1a3199dd9052b') in 0.114636 seconds 
+  Time since last request: 0.000422 seconds.
+  path: Assets/Sprites/TercerPiso.png
+  artifactKey: Guid(ef7ba602a4abcba409ac3e8b2525a337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TercerPiso.png using Guid(ef7ba602a4abcba409ac3e8b2525a337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96344a05c212091ff824ff095e46fdd') in 0.026461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(9b1c1f73d0d4a4249a7c2f11ae7ff011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(9b1c1f73d0d4a4249a7c2f11ae7ff011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b6ce39b2b7429d3dc540f9480ce659') in 0.004238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000593 seconds.
+  path: Assets/Sprites/SegundoPiso.png
+  artifactKey: Guid(2a274cb1dc3b5b14f82b97d1e163384d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SegundoPiso.png using Guid(2a274cb1dc3b5b14f82b97d1e163384d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059388681799b4da550f7ea7c44d7a50') in 0.019261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Sprites/PlantaBaja.png
+  artifactKey: Guid(c165fd25b25230c48aef8ebba35e3b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlantaBaja.png using Guid(c165fd25b25230c48aef8ebba35e3b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2262def005c4a64ae9365c37fd301de8') in 0.025035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Sprites/Incendio.png
+  artifactKey: Guid(0e365ec48c878b746a0de45fac5a8ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Incendio.png using Guid(0e365ec48c878b746a0de45fac5a8ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e913655b146f9cc71bf3423b415344') in 0.021441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000575 seconds.
+  path: Assets/Sprites/Temblor.png
+  artifactKey: Guid(0d9fd5ce5e33069428440e9184580d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Temblor.png using Guid(0d9fd5ce5e33069428440e9184580d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5be12147c134613d9f6fde92cb03ba') in 0.022366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.375798 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(98fd4d50179c1f946af9c7ad3d40d00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(98fd4d50179c1f946af9c7ad3d40d00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beea82745eb8d960ff4e791495203817') in 0.004562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.401095 seconds.
+  path: Assets/Scripts/WEB Scripts
+  artifactKey: Guid(b1b2da3270dc3f54bb32b20e065e4280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WEB Scripts using Guid(b1b2da3270dc3f54bb32b20e065e4280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ac4a76c223a303d7b8a2b63915e636') in 0.005984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.179916 seconds.
+  path: Assets/Scripts/WEB Scripts/Siniestros
+  artifactKey: Guid(875f0fd517e5593419594f089c72e098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WEB Scripts/Siniestros using Guid(875f0fd517e5593419594f089c72e098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca4c15fc683e241dfef591100224174') in 0.005326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.723101 seconds.
+  path: Assets/Scripts/WEB Scripts/Siniestros/Sismo
+  artifactKey: Guid(549a1f6b0adbd8943bbe8605ecf5b160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WEB Scripts/Siniestros/Sismo using Guid(549a1f6b0adbd8943bbe8605ecf5b160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e837f72099fa67d5fd6e3e1c2a7c73ed') in 0.006735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.601629 seconds.
+  path: Assets/Scripts/WEB Scripts/Siniestros/Sismo/Salida.cs
+  artifactKey: Guid(4fc3cff4f760f2249a7a75c314fcdcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WEB Scripts/Siniestros/Sismo/Salida.cs using Guid(4fc3cff4f760f2249a7a75c314fcdcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88a65690f0083e4cdd10d9dd5bca6c2') in 0.007974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.528716 seconds.
+  path: Assets/Scripts/WEB Scripts/Siniestros/Sismo/SismoTimers.cs
+  artifactKey: Guid(382ea5e4d7142d04e85337b578adb7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WEB Scripts/Siniestros/Sismo/SismoTimers.cs using Guid(382ea5e4d7142d04e85337b578adb7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d1196384a97e385952df77bb64fae1') in 0.005428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.794693 seconds.
+  path: Assets/Scripts/WEB Scripts/Siniestros/Incendio
+  artifactKey: Guid(8117ebcc2d01d8241b800054215b7515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WEB Scripts/Siniestros/Incendio using Guid(8117ebcc2d01d8241b800054215b7515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a118a3ddec35d87187983d10807262d') in 0.006431 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
