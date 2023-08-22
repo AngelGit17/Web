@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 16
+  controlID: 59
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 17
+  controlID: 60
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 18
+  controlID: 61
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -346,22 +346,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/Pisos/Siniestros
+    - Assets/Scripts/WEB Scripts/Siniestros/Sismo
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes/Pisos/Siniestros
+  - Assets/Scripts/WEB Scripts/Siniestros/Sismo
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Heku\Desktop\Web\AHR_WEB
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 174}
-    m_SelectedIDs: 385d0000
-    m_LastClickedID: 23864
-    m_ExpandedIDs: 00000000dc5c0000de5c0000e05c0000e25c0000e45c0000e65c0000e85c0000365d000000ca9a3b
+    scrollPos: {x: 0, y: 218}
+    m_SelectedIDs: 4e720000
+    m_LastClickedID: 29262
+    m_ExpandedIDs: 00000000e05a0000e25a0000e45a0000e65a0000e85a0000ea5a0000ec5a0000f85a00001c5b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -389,7 +389,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000dc5c0000de5c0000e05c0000e25c0000e45c0000e65c0000e85c0000
+    m_ExpandedIDs: 00000000e05a0000e25a0000e45a0000e65a0000e85a0000ea5a0000ec5a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -510,9 +510,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 48e7ffffccf0ffff68fbffff0a790000627a0000
+      m_SelectedIDs: 46edffff5ee9ffff50600000306b000038640000
+      m_LastClickedID: 25656
+      m_ExpandedIDs: dceeffff68fbffff50600000246200000e63000080640000306b00005a6c0000f46c0000aa700000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -572,9 +572,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1427.775, y: 25.879166, z: -115.653015}
+    m_Target: {x: -669.52747, y: 18.264856, z: 1.1110535}
     speed: 2
-    m_Value: {x: -1427.775, y: 25.879166, z: -115.653015}
+    m_Value: {x: -669.52747, y: 18.264856, z: 1.1110535}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -621,13 +621,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.005068065, y: 0.99421036, z: -0.09272889, w: 0.054321192}
+    m_Target: {x: 0.20071003, y: -0.17668451, z: 0.03683066, w: 0.962909}
     speed: 2
-    m_Value: {x: 0.004928894, y: 0.9942761, z: -0.09273502, w: 0.052829042}
+    m_Value: {x: 0.20059341, y: -0.17956777, z: 0.03743165, w: 0.96234953}
   m_Size:
-    m_Target: 30.616245
+    m_Target: 42.482876
     speed: 2
-    m_Value: 32.058895
+    m_Value: 42.482876
   m_Ortho:
     m_Target: 0
     speed: 2
