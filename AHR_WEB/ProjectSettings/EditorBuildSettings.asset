@@ -21,9 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Pisos/Sala de juntas.unity
     guid: ae5ec0b2ed517634e8d2f6e804238fd5
   - enabled: 1
-    path: Assets/Scenes/Pisos/Siniestros/Incendio.unity
+    path: Assets/Scenes/Pisos/Siniestros/Incendio2.unity
     guid: 5b18e8a69dff86f4382fafe51715814c
   - enabled: 1
-    path: Assets/Scenes/Pisos/Siniestros/Sismo.unity
+    path: Assets/Scenes/Pisos/Siniestros/Sismo2.unity
     guid: 3c402bb9840c3914090959f9aafd6101
   m_configObjects: {}
