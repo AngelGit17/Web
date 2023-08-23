@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Pisos/Siniestros/Sismo.unity
     guid: 3c402bb9840c3914090959f9aafd6101
+  - enabled: 1
+    path: Assets/Scenes/Pisos/Siniestros/Sismo2.unity
+    guid: 44ed12b88df179940aba526f77029c55
   m_configObjects: {}

@@ -7,6 +7,9 @@ using UnityEngine.SceneManagement;
 
 public class SismoTimers : MonoBehaviour
 {
+    //primer parte
+
+
     //Timer 5seg
     public Safe desp;
 
@@ -21,7 +24,7 @@ public class SismoTimers : MonoBehaviour
 
     public GameObject finalCanvas;
     public float marcador;
-    public bool play = false;
+    public bool play = true;
 
 void Start(){
 
@@ -31,6 +34,7 @@ void Start(){
     // Update is called once per frame
     void Update()
     {
+
         if(play){
         if (Tiempo>0)
         {
