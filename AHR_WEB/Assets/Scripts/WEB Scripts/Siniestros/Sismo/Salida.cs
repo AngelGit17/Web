@@ -12,6 +12,7 @@ public class Salida : MonoBehaviour
     public GameObject ImaBot;
     public GameObject ImaVol;
     public GameObject ImaMoc;
+    public GameObject NotSal;
     public GameObject flechaslight;
     public GameObject NotifText;
     public Text timerfinal;
@@ -29,6 +30,7 @@ public class Salida : MonoBehaviour
     {
         if(ImaBot.activeSelf && ImaMoc.activeSelf && ImaVol.activeSelf){
             flechaslight.SetActive(true);
+            NotSal.SetActive(true);
             NotifText.SetActive(true);
         }
 
