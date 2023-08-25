@@ -13,8 +13,13 @@ public class firetype : MonoBehaviour
     public GameObject Ext3;
     public GameObject coll;
     public GameObject coll2;
+    public GameObject colerrl;
+    public GameObject colerr2;
     public bool inccon = false;
     public bool inccon1 = false;
+    public bool incerr = false;
+    public bool incerr1 = false;
+
 
 
     // Update is called once per frame
@@ -26,8 +31,9 @@ public class firetype : MonoBehaviour
                 inccon = true;
                 coll.SetActive(true);
             }
-            else {
-                inccon = false;
+            else if (Ext1.activeSelf) {
+                colerrl.SetActive(true);
+                incerr = true;
             }
         }
         if(Fire2.activeSelf)
@@ -36,8 +42,9 @@ public class firetype : MonoBehaviour
                 inccon1 = true;
                 coll2.SetActive(true);
             }
-            else {
-                inccon1 = false;
+            else if (Ext3.activeSelf){
+                colerr2.SetActive(true);
+                incerr1 = true;
             }
         }
     }

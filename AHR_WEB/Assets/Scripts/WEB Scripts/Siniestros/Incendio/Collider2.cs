@@ -6,9 +6,15 @@ public class Collider2 : MonoBehaviour
 {
     public GameObject NotifInc;
     public GameObject fuego;
+    public GameObject alarma;
     public GameObject extAnim;
+
     private float elapsed = 0f;
-    public bool timeron = false;
+    private float elapsed1 = 0f;
+    private bool timeron = false;
+    private bool canfinbool = false;
+    public GameObject canfin;
+    
 
 
     // Start is called before the first frame update
@@ -30,6 +36,15 @@ public class Collider2 : MonoBehaviour
             if (elapsed >= 4f) {
                 elapsed = elapsed % 5f;
                 fuego.SetActive(false);
+                alarma.SetActive(false);
+                canfinbool = true;
+            }
+        }
+        if(canfinbool == true){
+        elapsed += Time.deltaTime;
+            if (elapsed >= 2f) {
+                elapsed = elapsed % 5f;
+                canfin.SetActive(true);
             }
         }
     }
