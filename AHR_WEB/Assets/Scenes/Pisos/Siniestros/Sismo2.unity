@@ -18184,7 +18184,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ruta de emergencia
+  m_text: Escalera de emergencia
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e39563c725189be4ea7219351d91bfb5, type: 2}
   m_sharedMaterial: {fileID: -6016865359155873733, guid: e39563c725189be4ea7219351d91bfb5, type: 2}
