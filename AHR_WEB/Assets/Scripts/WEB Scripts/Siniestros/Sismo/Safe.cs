@@ -45,7 +45,6 @@ public class Safe : MonoBehaviour
         
         if(TimerOn==true && Tiempo==0)
         {
-            sonido.SetActive(false);
             Polvo.SetActive(false);
             Anuncio.SetActive(true);
             desplegado = true;
@@ -66,6 +65,7 @@ public class Safe : MonoBehaviour
         safezone.SetActive(true);
         texto.SetActive(true);
         textoNum.SetActive(true);
+        sonido.SetActive(false);
         TimerOn = true;
         
         }
